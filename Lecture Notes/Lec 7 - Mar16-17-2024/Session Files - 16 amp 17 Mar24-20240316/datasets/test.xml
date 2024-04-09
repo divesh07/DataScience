@@ -1,0 +1,10 @@
+data = '''
+<person>
+<name>Dave</name>
+<surname>Piccardo</surname>
+<phone type="intl">
++1 742 101 4456
+</phone>
+<email hide="yes">
+dave.p@gmail.com</email>
+</person>'''
