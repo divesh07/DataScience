@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>CO2 VS GDP INDIA</title>
+    <style>
+      html, body {
+        box-sizing: border-box;
+        display: flow-root;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-3.2.1.min.js"></script>
+    <script type="text/javascript">
+        Bokeh.set_log_level("info");
+    </script>
+  </head>
+  <body>
+    <div id="cbd98ced-e25b-4744-b590-cbf9b3ff8097" data-root-id="p1492" style="display: contents;"></div>
+  
+    <script type="application/json" id="p1527">
+      {"8fc1529f-73af-4d35-bf3a-1660129498e1":{"version":"3.2.1","title":"Bokeh Application","roots":[{"type":"object","name":"Figure","id":"p1492","attributes":{"sizing_mode":"stretch_width","x_range":{"type":"object","name":"DataRange1d","id":"p1493"},"y_range":{"type":"object","name":"DataRange1d","id":"p1494"},"x_scale":{"type":"object","name":"LinearScale","id":"p1502"},"y_scale":{"type":"object","name":"LinearScale","id":"p1503"},"title":{"type":"object","name":"Title","id":"p1495","attributes":{"text":"CO2 V/S GDP","text_color":"#5B5B5B","text_font":"Calibri Light","text_font_size":"1.25em","text_font_style":"bold"}},"renderers":[{"type":"object","name":"GlyphRenderer","id":"p1520","attributes":{"data_source":{"type":"object","name":"ColumnDataSource","id":"p1514","attributes":{"selected":{"type":"object","name":"Selection","id":"p1515","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p1516"},"data":{"type":"map","entries":[["x",{"type":"ndarray","array":{"type":"bytes","data":"AAAAAACUkUAAAAAAAHSQQAAAAAAANJBAAAAAAAAgkUAAAAAAAByRQAAAAAAA1JFAAAAAAABIkkAAAAAAAAiSQAAAAAAAlJFAAAAAAAD8kUAAAAAAAMyRQAAAAAAA8JJAAAAAAADEkkAAAAAAAMiTQAAAAAAAZJRAAAAAAADskkAAAAAAANiTQAAAAAAAqJRAAAAAAADYlEAAAAAAABCWQAAAAAAAcJZAAAAAAADYlkAAAAAAAFSXQAAAAAAA1JdAAAAAAADEmUAAAAAAAOyaQAAAAAAAxJtAAAAAAACAm0AAAAAAAHScQAAAAAAAPJ1AAAAAAACcnkAAAAAAACqgQAAAAAAAFKFAAAAAAAB2oUAAAAAAADiiQAAAAAAAgKNAAAAAAADoo0AAAAAAAIikQAAAAAAA+KRAAAAAAABEpkAAAAAAAKqnQAAAAAAAfKlAAAAAAAB0q0AAAAAAALytQAAAAAAAeq5AAAAAAABRsEAAAAAAAMOxQAAAAAAAs7JAAAAAAABns0AAAAAAAHy0QA=="},"shape":[50],"dtype":"float64","order":"little"}],["y",{"type":"ndarray","array":{"type":"bytes","data":"LbKd76fG0z8dWmQ730/VP28Sg8DKodU/c2iR7Xw/1T9kO99PjZfWP7pJDAIrh9Y/ZDvfT42X1j+yne+nxkvXP6rx0k1iENg//tR46SYx2D+mm8QgsHLYP5ZDi2zn+9k/j8L1KFyP2j/b+X5qvHTbPzMzMzMzM9s/gZVDi2zn2z93vp8aL93cP2ZmZmZmZt4/Di2yne+n3j/TTWIQWDngP6jGSzeJQeA/Rrbz/dR44T+8dJMYBFbiP4lBYOXQIuM/001iEFg55D/ufD81XrrlP2IQWDm0yOY/g8DKoUW25z9OYhBYObToP3WTGARWDuk/lkOLbOf76T8K16NwPQrrP6JFtvP91Ow/cT0K16Nw7T9GtvP91HjtPzeJQWDl0O4/XI/C9Shc7z+0yHa+nxrvP4ts5/up8e4/WDm0yHa+7z97FK5H4XrwPx+F61G4HvE/7FG4HoXr8T8K16NwPQrzP/YoXI/C9fQ/4XoUrkfh9j9mZmZmZmb2P65H4XoUrvc/mpmZmZmZ+T9xPQrXo3D5Pw=="},"shape":[50],"dtype":"float64","order":"little"}]]}}},"view":{"type":"object","name":"CDSView","id":"p1521","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p1522"}}},"glyph":{"type":"object","name":"Scatter","id":"p1517","attributes":{"x":{"type":"field","field":"x"},"y":{"type":"field","field":"y"},"size":{"type":"value","value":12},"line_color":{"type":"field","field":"y","transform":{"type":"object","name":"LinearColorMapper","id":"p1486","attributes":{"palette":["#000003","#000004","#000006","#010007","#010109","#01010B","#02010E","#020210","#030212","#040314","#040316","#050418","#06041B","#07051D","#08061F","#090621","#0A0723","#0B0726","#0D0828","#0E082A","#0F092D","#10092F","#120A32","#130A34","#140B36","#160B39","#170B3B","#190B3E","#1A0B40","#1C0C43","#1D0C45","#1F0C47","#200C4A","#220B4C","#240B4E","#260B50","#270B52","#290B54","#2B0A56","#2D0A58","#2E0A5A","#300A5C","#32095D","#34095F","#350960","#370961","#390962","#3B0964","#3C0965","#3E0966","#400966","#410967","#430A68","#450A69","#460A69","#480B6A","#4A0B6A","#4B0C6B","#4D0C6B","#4F0D6C","#500D6C","#520E6C","#530E6D","#550F6D","#570F6D","#58106D","#5A116D","#5B116E","#5D126E","#5F126E","#60136E","#62146E","#63146E","#65156E","#66156E","#68166E","#6A176E","#6B176E","#6D186E","#6E186E","#70196E","#72196D","#731A6D","#751B6D","#761B6D","#781C6D","#7A1C6D","#7B1D6C","#7D1D6C","#7E1E6C","#801F6B","#811F6B","#83206B","#85206A","#86216A","#88216A","#892269","#8B2269","#8D2369","#8E2468","#902468","#912567","#932567","#952666","#962666","#982765","#992864","#9B2864","#9C2963","#9E2963","#A02A62","#A12B61","#A32B61","#A42C60","#A62C5F","#A72D5F","#A92E5E","#AB2E5D","#AC2F5C","#AE305B","#AF315B","#B1315A","#B23259","#B43358","#B53357","#B73456","#B83556","#BA3655","#BB3754","#BD3753","#BE3852","#BF3951","#C13A50","#C23B4F","#C43C4E","#C53D4D","#C73E4C","#C83E4B","#C93F4A","#CB4049","#CC4148","#CD4247","#CF4446","#D04544","#D14643","#D24742","#D44841","#D54940","#D64A3F","#D74B3E","#D94D3D","#DA4E3B","#DB4F3A","#DC5039","#DD5238","#DE5337","#DF5436","#E05634","#E25733","#E35832","#E45A31","#E55B30","#E65C2E","#E65E2D","#E75F2C","#E8612B","#E9622A","#EA6428","#EB6527","#EC6726","#ED6825","#ED6A23","#EE6C22","#EF6D21","#F06F1F","#F0701E","#F1721D","#F2741C","#F2751A","#F37719","#F37918","#F47A16","#F57C15","#F57E14","#F68012","#F68111","#F78310","#F7850E","#F8870D","#F8880C","#F88A0B","#F98C09","#F98E08","#F99008","#FA9107","#FA9306","#FA9506","#FA9706","#FB9906","#FB9B06","#FB9D06","#FB9E07","#FBA007","#FBA208","#FBA40A","#FBA60B","#FBA80D","#FBAA0E","#FBAC10","#FBAE12","#FBB014","#FBB116","#FBB318","#FBB51A","#FBB71C","#FBB91E","#FABB21","#FABD23","#FABF25","#FAC128","#F9C32A","#F9C52C","#F9C72F","#F8C931","#F8CB34","#F8CD37","#F7CF3A","#F7D13C","#F6D33F","#F6D542","#F5D745","#F5D948","#F4DB4B","#F4DC4F","#F3DE52","#F3E056","#F3E259","#F2E45D","#F2E660","#F1E864","#F1E968","#F1EB6C","#F1ED70","#F1EE74","#F1F079","#F1F27D","#F2F381","#F2F485","#F3F689","#F4F78D","#F5F891","#F6FA95","#F7FB99","#F9FC9D","#FAFDA0","#FCFEA4"],"low":0.309,"high":1.6}}},"fill_color":{"type":"field","field":"y","transform":{"id":"p1486"}},"hatch_color":{"type":"field","field":"y","transform":{"id":"p1486"}}}},"nonselection_glyph":{"type":"object","name":"Scatter","id":"p1518","attributes":{"x":{"type":"field","field":"x"},"y":{"type":"field","field":"y"},"size":{"type":"value","value":12},"line_color":{"type":"field","field":"y","transform":{"id":"p1486"}},"line_alpha":{"type":"value","value":0.1},"fill_color":{"type":"field","field":"y","transform":{"id":"p1486"}},"fill_alpha":{"type":"value","value":0.1},"hatch_color":{"type":"field","field":"y","transform":{"id":"p1486"}},"hatch_alpha":{"type":"value","value":0.1}}},"muted_glyph":{"type":"object","name":"Scatter","id":"p1519","attributes":{"x":{"type":"field","field":"x"},"y":{"type":"field","field":"y"},"size":{"type":"value","value":12},"line_color":{"type":"field","field":"y","transform":{"id":"p1486"}},"line_alpha":{"type":"value","value":0.2},"fill_color":{"type":"field","field":"y","transform":{"id":"p1486"}},"fill_alpha":{"type":"value","value":0.2},"hatch_color":{"type":"field","field":"y","transform":{"id":"p1486"}},"hatch_alpha":{"type":"value","value":0.2}}}}}],"toolbar":{"type":"object","name":"Toolbar","id":"p1501","attributes":{"autohide":true,"tools":[{"type":"object","name":"HoverTool","id":"p1487","attributes":{"renderers":"auto","tooltips":"GDP: @x, CO2 emission: @y"}},{"type":"object","name":"BoxZoomTool","id":"p1488","attributes":{"overlay":{"type":"object","name":"BoxAnnotation","id":"p1489","attributes":{"syncable":false,"level":"overlay","visible":false,"left_units":"canvas","right_units":"canvas","bottom_units":"canvas","top_units":"canvas","line_color":"black","line_alpha":1.0,"line_width":2,"line_dash":[4,4],"fill_color":"lightgrey","fill_alpha":0.5}}}},{"type":"object","name":"PanTool","id":"p1490"},{"type":"object","name":"ResetTool","id":"p1491"}]}},"toolbar_location":"below","left":[{"type":"object","name":"LinearAxis","id":"p1509","attributes":{"ticker":{"type":"object","name":"BasicTicker","id":"p1510","attributes":{"mantissas":[1,2,5]}},"formatter":{"type":"object","name":"BasicTickFormatter","id":"p1511"},"axis_label":"Carbon Dioxide Emissions","axis_label_standoff":10,"axis_label_text_color":"#5B5B5B","axis_label_text_font":"Calibri Light","axis_label_text_font_size":"1.15em","axis_label_text_font_style":"bold","major_label_policy":{"type":"object","name":"AllLabels","id":"p1512"},"major_label_text_color":"blue","major_label_text_font":"Calibri Light","major_label_text_font_size":"0.95em","major_label_text_font_style":"bold","axis_line_color":"blue","axis_line_alpha":1,"axis_line_width":3,"major_tick_line_color":"#5B5B5B","major_tick_line_alpha":0.25,"major_tick_in":0,"major_tick_out":3,"minor_tick_line_color":"#5B5B5B","minor_tick_line_alpha":0.25}}],"below":[{"type":"object","name":"LinearAxis","id":"p1504","attributes":{"ticker":{"type":"object","name":"BasicTicker","id":"p1505","attributes":{"mantissas":[1,2,5]}},"formatter":{"type":"object","name":"BasicTickFormatter","id":"p1506"},"axis_label":"Gross Domestic Product","axis_label_standoff":10,"axis_label_text_color":"#5B5B5B","axis_label_text_font":"Calibri Light","axis_label_text_font_size":"1.15em","axis_label_text_font_style":"bold","major_label_policy":{"type":"object","name":"AllLabels","id":"p1507"},"major_label_text_color":"red","major_label_text_font":"Calibri Light","major_label_text_font_size":"0.95em","major_label_text_font_style":"bold","axis_line_color":"red","axis_line_alpha":1,"axis_line_width":3,"major_tick_line_color":"#5B5B5B","major_tick_line_alpha":0.25,"major_tick_in":0,"major_tick_out":3,"minor_tick_line_color":"#5B5B5B","minor_tick_line_alpha":0.25}}],"center":[{"type":"object","name":"Grid","id":"p1508","attributes":{"axis":{"id":"p1504"},"grid_line_color":"red"}},{"type":"object","name":"Grid","id":"p1513","attributes":{"dimension":1,"axis":{"id":"p1509"},"grid_line_color":"blue","grid_line_dash":[6,4],"band_fill_color":"olive","band_fill_alpha":0.05}},{"type":"object","name":"Legend","id":"p1523","attributes":{"location":"top_left","border_line_alpha":0,"background_fill_alpha":0.25,"label_text_color":"#5B5B5B","label_text_font":"Calibri Light","label_text_font_size":"0.95em","label_text_font_style":"bold","label_standoff":8,"glyph_width":15,"spacing":8,"items":[{"type":"object","name":"LegendItem","id":"p1524","attributes":{"label":{"type":"value","value":"co2 v/s gdp of India"},"renderers":[{"id":"p1520"}]}}]}}]}}]}}
+    </script>
+    <script type="text/javascript">
+      (function() {
+        const fn = function() {
+          Bokeh.safely(function() {
+            (function(root) {
+              function embed_document(root) {
+              const docs_json = document.getElementById('p1527').textContent;
+              const render_items = [{"docid":"8fc1529f-73af-4d35-bf3a-1660129498e1","roots":{"p1492":"cbd98ced-e25b-4744-b590-cbf9b3ff8097"},"root_ids":["p1492"]}];
+              root.Bokeh.embed.embed_items(docs_json, render_items);
+              }
+              if (root.Bokeh !== undefined) {
+                embed_document(root);
+              } else {
+                let attempts = 0;
+                const timer = setInterval(function(root) {
+                  if (root.Bokeh !== undefined) {
+                    clearInterval(timer);
+                    embed_document(root);
+                  } else {
+                    attempts++;
+                    if (attempts > 100) {
+                      clearInterval(timer);
+                      console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                    }
+                  }
+                }, 10, root)
+              }
+            })(window);
+          });
+        };
+        if (document.readyState != "loading") fn();
+        else document.addEventListener("DOMContentLoaded", fn);
+      })();
+    </script>
+  </body>
+</html>
