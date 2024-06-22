@@ -1,0 +1,7 @@
+Text Analytics
+1. Sentiment analysis
+2. Text Classification
+3. NER
+3. Named Entity Recognition
+
+3. Named Entity Recognition
