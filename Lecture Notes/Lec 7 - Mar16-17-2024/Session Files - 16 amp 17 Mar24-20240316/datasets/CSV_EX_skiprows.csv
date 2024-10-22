@@ -1,8 +1,3 @@
-Filetype: CSV,,,
-,Info about some houses,,
-Bedroom, Sq. foot, Locality, Price ($)
-2,1500, Good,300000
-3,1300, Fair,240000
-3,1900, Very good,450000
-3,1850, Bad,280000
-2,1640, Good,310000
+version https://git-lfs.github.com/spec/v1
+oid sha256:ade8b4d0ebbd243f972991047f0747dc648c81709c6600defb6ff64db4914dda
+size 186
